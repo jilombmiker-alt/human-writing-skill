@@ -1,0 +1,13 @@
+interface:
+  display_name: 活人感写作
+  short_description: 写活中文长文，筛选 AI 选题并交付公众号图文素材
+  default_prompt: 使用 $human-writing 写一篇有活人感的中文作品；如果是 AI 产品文章，先推荐经核验的方向，公众号成稿需分开交付正文和独立图片。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
